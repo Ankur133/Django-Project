@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Welcome Page</title>
+        <style>
+            body{
+                background-color: white;
+                color: black;
+                font-size: 10px;
+                
+            }
+            .imgcontainer {
+                text-align: center;
+                margin: 0px 0 0px 0;
+            }
+              
+            img.avatar {
+                width: 70%;
+                border-radius: 0%;
+            }  
+        </style>
+    </head>
+    <body>
+            {% load static %}
+        <center><h1></h1></center>
+        <div class="imgcontainer">
+        <img src="{% static 'welcome-5.gif' %}" alt="Avatar" class="avatar">
+        </div>
+    </body>
+
+</html>

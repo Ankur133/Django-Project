@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Error page</title>
+        <style>
+            body{
+                color: black;
+                background-color: white;
+                font-size: 10px;
+            }
+            .imgcontainer {
+                text-align: center;
+                margin: 0px 0 0px 0;
+            }
+              
+            img.avatar {
+                width: 50%;
+                border-radius: 0%;
+            }  
+        </style>
+    </head>
+    <body>
+            {% load static %}
+        <div class="imgcontainer">
+        <img src="{% static 'error2.jpeg' %}" alt="Avatar" class="avatar">
+        </div>
+    </body>
+</html>
